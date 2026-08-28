@@ -13,7 +13,7 @@ O objetivo do projeto é praticar **modelagem de dados, relacionamentos entre ta
 * Trabalhar com PostgreSQL e SQL.
 * Inserir e manipular dados fictícios.
 * Desenvolver consultas SQL básicas, intermediárias e avançadas.
-* Praticar `JOIN`, `GROUP BY`, `HAVING`, funções de agregação, subqueries e CTEs.
+* Praticar `JOIN`, `GROUP BY`, `HAVING`, funções de agregação e subqueries.
 * Relacionar dados entre diferentes bancos de dados.
 * Utilizar consultas para apoiar validações de QA.
 
@@ -110,7 +110,6 @@ As consultas foram organizadas por nível de complexidade.
 ### Avançadas
 
 * Subqueries.
-* CTEs.
 * Consultas agregadas.
 * Integração entre os bancos RPG e Loja.
 
