@@ -49,3 +49,14 @@ JOIN store_order_remote o
 WHERE o.status = 'COMPLETED'
 GROUP BY p.id_player, p.name
 ORDER BY total_spent DESC;
+
+SELECT
+    p.name AS player_name,
+	SUM(o.total) AS total_spent,
+	COUNT(o.status = 'COMPLETED') AS completed_orders
+FROM player p
+JOIN store_order_remote o
+	ON p.id_player = o.id_player
+WHERE status = 'COMPLETED'
+GROUP BY p.id_player, p.name
+ORDER BY total_spent DESC
