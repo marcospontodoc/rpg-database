@@ -174,9 +174,8 @@ Durante o desenvolvimento deste projeto foram praticados:
 * Consultas SQL de diferentes níveis.
 * `JOIN`, `GROUP BY` e `HAVING`.
 * Funções de agregação.
-* Subqueries e CTEs.
+* Subqueries.
 * Integração entre bancos PostgreSQL.
-* Utilização de banco de dados para validações de QA.
 
 ## 📌 Status
 
